@@ -1,7 +1,7 @@
 pipeline {
   agent any
   environment {
-    IMAGE_NAME = 'RifdaMaulidya24/simple-app'
+    IMAGE_NAME = 'rifda788/simple-app'
     REGISTRY = 'https://index.docker.io/v1/'
     REGISTRY_CREDENTIALS = 'dockerhub-credentials'
   }
@@ -43,3 +43,4 @@ pipeline {
   }
 
 }
+
